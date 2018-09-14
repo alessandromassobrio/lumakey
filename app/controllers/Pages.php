@@ -5,6 +5,10 @@
     }
 
     public function index(){
+      $data = [
+        'title' => 'Home Page'
+      ];
 
+      $this->view('pages/index', $data);
     }
   }
